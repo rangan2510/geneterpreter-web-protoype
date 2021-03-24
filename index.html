@@ -1,9 +1,326 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="7; url='/startbootstrap-landing-page-gh-pages/index.html'" />
-  </head>
-  <body>
-    <p>Please follow <a href="/startbootstrap-landing-page-gh-pages/index.html">this link</a>.</p>
-  </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>GeneterpreteR · The Operating System for personalized medicine</title>
+
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/"> -->
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/custom.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <link href="product.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-xxl navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/branding.png" alt="" height="48">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Assistance
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Precision Oncology</a></li>
+                <li><a class="dropdown-item" href="#">Precision Medicine</a></li>
+                <li><a class="dropdown-item" href="#">Structural Biophysics & Consultancies</a></li>
+                <li><a class="dropdown-item" href="#">Multiomics data analysis</a></li>
+                <li><a class="dropdown-item" href="#">Computational Analysis and System biology</a></li>
+                <li><a class="dropdown-item" href="#">Single Cell Data analysis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contributions
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">News</a></li>
+                <li><a class="dropdown-item" href="#">Blogs</a></li>
+                <li><a class="dropdown-item" href="#">Publications</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Approach Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/hero1.jpg" class="image-fit h-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero2.jpg" class="image-fit h-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero3.jpg" class="image-fit h-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero4.jpg" class="image-fit h-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>We help harness the power of genomic analysis</h4>
+          <p>Genomic analysis is a larger area to enhance healthcare researches.
+             Proper frames can help to unleash the ability of genomic data.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h4>We believe in providing personal care.</h4>
+          <p>Each person comes with their own phenotypic and genotypic specification. 
+            Therefore, generic therapeutic and diagnostic protocol misses person to person 
+            differences. Personalized systems provide the robustness.
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h4>We decode the underlying mystery of rare diseases</h4>
+          <p>In the new era, rare tropical disease enhances the possibility of pandemic condition. The common challenges are to identify virulent type and to identify the type of molecular mechanism they are engaged with host cells. A recent development in area of genomics and computational biology can make it easier.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Operating Systems for Precision Medicine.  <span class="text-muted">An organized frame.</span>
+          </h2>
+          <p class="lead">In the new era of personalized therapeutic, operating system protocols for precision medicine can channelized and synchronized the area of personalized therapeutic. To create huge data warehouse which can help to track the progressive condition of patients. Intervention of AI (specially Federated AI), Network Model and Machine Learning algorithms helps to propose professional applications for day-to-day utilization. </p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/feat_1.jpg" class="rounded mx-auto featurette-image" width="100%" height="500" >
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Precision Oncology. <span class="text-muted">Personalized Therapeutic and Diagnostic.</span></h2>
+          <p class="lead">Molecular profiling becomes crucial due to the heterogeneous nature of tumors. This helps to interpret the involvement of genomic variants in the cause or development of individual cancer. Our comprehensive frame tracks the cell-specific and genome-specific modification which can assist the clinicians/ doctors to come up with an appropriate clinical decision. Due to the advancement in computational genomics, we provide personalized malignancy profiling for the patients where the genome-wide transition can be observed.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="images/feat_2.jpg"class="rounded mx-auto featurette-image" width="100%" height="500">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Precision Medicine for Viral Infection.<span class="text-muted">Genome Based medicine based on the target.</span></h2>
+          <p class="lead">A surge has been observed in the area of viral infection and related studies, specially after Covid-19 situation. Even in SARS-CoV-2 infection, vital organs are individually affected and rate differs in each patient. Our method gathers the genetic and other molecular information of patients and accelerates the virus type identification for unknown viruses. Genome based profiling also assist to create P4 systems medicine.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/feat_3.jpg" class="rounded mx-auto featurette-image" width="100%" height="500">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+    
+    <!-- /PARTNERSHIP -->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row g-0 full-height bg-dark text-light">
+  
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/partner.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Join Us</h2>
+            <p class="lead mb-0">Partner with us, make profound discoveries.</p>
+            <br>
+            <button type="button" class="btn btn-light">Get in touch</button>
+          </div>
+        </div>
+
+
+        <div class="row g-0 full-height bg-light">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/team.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Say Hi.</h2>
+            <p class="lead mb-0">Get to know who we are and what we do.</p>
+            <br>
+            <button type="button" class="btn btn-dark">Meet Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /END PARTNERSHIP -->
+
+    <hr class="featurette-divider">
+
+    <!-- FOOTER -->
+    <footer class="container py-2">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="images/branding-logo.png" width="120px">
+          <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary" href="#">Random feature</a></li>
+            <li><a class="link-secondary" href="#">Team feature</a></li>
+            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary" href="#">Another one</a></li>
+            <li><a class="link-secondary" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Resource name</a></li>
+            <li><a class="link-secondary" href="#">Resource</a></li>
+            <li><a class="link-secondary" href="#">Another resource</a></li>
+            <li><a class="link-secondary" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Team</a></li>
+            <li><a class="link-secondary" href="#">Locations</a></li>
+            <li><a class="link-secondary" href="#">Privacy</a></li>
+            <li><a class="link-secondary" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+  <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
 </html>
